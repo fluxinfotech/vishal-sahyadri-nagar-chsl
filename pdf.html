@@ -8,7 +8,7 @@
     <link href="css/pdf.css" rel="stylesheet">
 </head>
 
-<body onload="showPDF('/pdf/instapdf.in-hanuman-chalisa-hindi-893.pdf')">
+<body onload="onLoadPage()">
 <div id="pdf-main-container">
     <h1 id="show-pdf-button">PDF</h1>
     <div id="pdf-loader">Loading document ...</div>
@@ -31,5 +31,28 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.2.228/pdf.min.js"></script>
 <script src="js/pdf.js"></script>
+<script>
+   /* function onLoadPage() {
+        var sPageURL = window.location.search.substring(1);
+        console.log(sPageURL)
+      //  showPDF('/pdf/instapdf.in-hanuman-chalisa-hindi-893.pdf')
+        showPDF(sPageURL)
+    }*/
+    function onLoadPage() {
+        var sPageURL = window.location.search.substring(1);
+        console.log(sPageURL)
+        if (sPageURL == "PDF1"){
+            document.getElementById("show-pdf-button").innerHTML = sPageURL
+           // $('#show-pdf-button').text(sPageURL);
+            showPDF('/pdf/dummy.pdf')
+        }
+        else  if (sPageURL == "PDF2"){
+            document.getElementById("show-pdf-button").innerHTML = sPageURL
+            showPDF('/pdf/instapdf.in-hanuman-chalisa-hindi-893.pdf')
+        }
+
+       // showPDF(sPageURL)
+    }
+</script>
 </body>
 </html>

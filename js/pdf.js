@@ -97,7 +97,7 @@ async function showPage(page_no) {
 document.querySelector("#show-pdf-button").addEventListener('click', function() {
     this.style.display = 'block';
     //  showPDF('https://mozilla.github.io/pdf.js/web/compressed.tracemonkey-pldi-09.pdf');
-    showPDF('/pdf/instapdf.in-hanuman-chalisa-hindi-893.pdf');
+   // showPDF('/pdf/instapdf.in-hanuman-chalisa-hindi-893.pdf');
 });
 
 // click on the "Previous" page button
