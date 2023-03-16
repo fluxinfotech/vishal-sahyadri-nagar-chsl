@@ -81,7 +81,7 @@ h6,
     margin-top: 0;
     margin-bottom: 0.5rem;
     font-family: 'TiroDevanagariMarathi';
-    font-weight: 700;
+    font-weight: 500;
     line-height: 1.2;
     color: #181d38;
 }
@@ -750,7 +750,7 @@ progress {
 }
 .g-4,
 .gy-4 {
-    --bs-gutter-y: 1.5rem;
+    --bs-gutter-y: 2.0rem;
 }
 .g-5,
 .gx-5 {
