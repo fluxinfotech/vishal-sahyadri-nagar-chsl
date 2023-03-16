@@ -1,4 +1,12 @@
 /********** Template CSS **********/
+
+@font-face {
+  font-family: 'TiroDevanagariMarathi';
+  src: url('./fonts/TiroDevanagariMarathi-Regular.ttf');
+}
+*{
+    font-family: 'TiroDevanagariMarathi';
+}
 :root {
     --primary: #ff9900;
     --light: #F0FBFC;
@@ -39,7 +47,7 @@
 
 /*** Button ***/
 .btn {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'TiroDevanagariMarathi';
     font-weight: 600;
     transition: .5s;
 }
