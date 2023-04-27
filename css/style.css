@@ -447,10 +447,11 @@
     height: 80%;
     background: #555;
     border-radius: 50%;
+    margin-right: 6%;
   }
   
   .logo-img h1 {
     position: relative;
-    top: 18px;
+    top: 12px;
     left: 10px;
   }
