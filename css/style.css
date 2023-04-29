@@ -478,7 +478,7 @@
 }
 button.mfp-arrow, .mfp-counter {
     opacity: 0 !important;
-    transition: opacity 200ms ease-in, opacity 2000ms ease-out;
+    transition: opacity 100ms ease-in, opacity 1000ms ease-out;
 }
 .mfp-container:hover button.mfp-arrow, .mfp-container:hover .mfp-counter{
 	opacity: 1 !important;
@@ -837,4 +837,3 @@ img.mfp-img {
     padding-left: 6px;
     padding-right: 6px; } }
 
-    
