@@ -476,10 +476,10 @@
 .mfp-arrow-right:before {
     border-left: none !important;
 }
-button.mfp-arrow, .mfp-counter {
+/* button.mfp-arrow, .mfp-counter {
     opacity: 0 !important;
     transition: opacity 100ms ease-in, opacity 1000ms ease-out;
-}
+} */
 .mfp-container:hover button.mfp-arrow, .mfp-container:hover .mfp-counter{
 	opacity: 1 !important;
 }
